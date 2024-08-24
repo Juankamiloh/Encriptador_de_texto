@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header> 
+        <img class="logo" src="./assets/Logo.png" alt="Logo de Alura Latam">
+    </header>
+    <main class="contenido">
+        <section class="contenedor_textarea">
+            <textarea class="area_texto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class=>
+                <h6 class="informacion"><img src="/assets/bi_exclamation-circle-fill.png" alt="signo de exclamacion"> Solo letras minúsculas, sin carácteres especiales y sin acentos :)</h6>
+            </div>
+            <div class="botones">
+                <button class="boton_encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="boton_desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="contenedor_mensaje">
+            <textarea class="mensaje" cols="20" rows="12"></textarea>
+            <div>
+                <button class="copiar" onclick="copiarTexto()">Copiar</button>
+                <div id="notificacion" class="oculto">Texto copiado al portapapeles</div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+<footer class="ultimo">
+    <p class="final_pie">Creado por <a class="final_pie_enlace" href="https://www.linkedin.com/in/juan-camilo-buitrago-hurtado-ingcivil/">Juan Camilo Buitrago H.</a> (2024)</p>
+    </footer>
+</html>
