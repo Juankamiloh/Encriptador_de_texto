@@ -63,6 +63,8 @@ main{
     padding-left: 20px;
     width: 100%; 
     text-align: center;
+    font-size: 0.8rem;
+    padding-top: 25px;
 }
 
 .mensaje:focus {
@@ -101,7 +103,7 @@ main{
     color:#0A3871;
     cursor: pointer;
     height: 67px;
-    margin-top: 20px; /* Reduce el margen superior */
+    margin-top: 20px; 
     width: 336px;
 }
 
